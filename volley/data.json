@@ -3,7 +3,7 @@
         "strength": {
             "id": 1,
             "name": "Fuerza",
-            "description": "Aumenta tu fuerza corporal con ejercicios de peso.",
+            "description": "Aumenta tu fuerza corporal con ejercicios de peso."
         },
         "jump": {
             "id": 2,
