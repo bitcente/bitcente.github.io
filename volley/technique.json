@@ -1,0 +1,124 @@
+{
+    "spike": {
+        "leftHanded": {
+            "hit": {
+                "level": {
+                    "1": {
+
+                    },
+                    "2": {
+
+                    }
+                }
+            },
+            "approach": {
+                "level": {
+                    "1": {
+
+                    },
+                    "2": {
+
+                    }
+                }
+            }
+        },
+        "rightHanded": {
+            "hit": {
+                "level": {
+                    "1": {
+
+                    },
+                    "2": {
+
+                    }
+                }
+            },
+            "approach": {
+                "level": {
+                    "1": {
+
+                    },
+                    "2": {
+
+                    }
+                }
+            }
+        }
+    },
+    "block": {
+        "steps": {
+            "preparation": {
+
+            },
+            "jump": {
+
+            },
+            "block": {
+
+            },
+            "movement": {
+
+            }
+        }
+    },
+    "pass": {
+        "underhand": {
+
+        },
+        "overhead": {
+
+        }
+    },
+    "set": {
+        "preparation": {
+
+        },
+        "throwing": {
+
+        },
+        "orientation": {
+
+        },
+        "backSet": {
+
+        }
+    },
+    "reception": {
+        "forearm": {
+
+        },
+        "overhead": {
+
+        }
+    },
+    "serve": {
+        "underhand": {
+
+        },
+        "power": {
+
+        },
+        "float": {
+
+        },
+        "jump": {
+            "power": {
+
+            },
+            "float": {
+
+            }
+        }
+    },
+    "dive": {
+        "straight": {
+
+        },
+        "roll": {
+
+        },
+        "plongeon": {
+
+        }
+    }
+}
