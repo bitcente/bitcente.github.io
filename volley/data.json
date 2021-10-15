@@ -23,6 +23,8 @@
     },
     "technique": {
         "spike": {
+            "id": 1,
+            "name": "Remate",
             "leftHanded": {
                 "hit": {
                     "level": {
@@ -97,6 +99,8 @@
             }
         },
         "block": {
+            "id": 2,
+            "name: "Bloqueo",
             "steps": {
                 "preparation": {
 
@@ -113,6 +117,8 @@
             }
         },
         "pass": {
+            "id": 3,
+            "name": "Pase",
             "underhand": {
 
             },
@@ -121,6 +127,8 @@
             }
         },
         "set": {
+            "id": 4,
+            "name": "Colocación",
             "preparation": {
 
             },
@@ -135,6 +143,8 @@
             }
         },
         "reception": {
+            "id": 5,
+            "name": "Recepción",
             "forearm": {
 
             },
@@ -143,6 +153,8 @@
             }
         },
         "serve": {
+            "id": 6,
+            "name": "Saque",
             "underhand": {
 
             },
@@ -162,6 +174,8 @@
             }
         },
         "dive": {
+            "id": 7,
+            "name": "Plancha",
             "straight": {
 
             },
