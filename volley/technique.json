@@ -24,7 +24,8 @@
                             "1": "El primer paso es el giro de cadera, gírala rápidamente hasta la posición inicial.",
                             "2": "El segundo paso es bajar el brazo derecho que tenenemos elevado hasta que se encuentre a la altura del cuerpo",
                             "3": "Por último, realiza el golpeo elevando el codo y llevándolo por delante de la cabeza. Estira el brazo para golpear en tu punto más alto."
-                        }
+                        },
+                        "xp": 80
                     },
                     "three": {
                         "id": 3,
@@ -33,16 +34,17 @@
                         "steps": {
                             "1": "En el punto de impacto con el balón (tu punto más alto), baja la muñeca para añadir al balón giro adicional y hacer que su trayectoria sea menos elevada. Esto nos ayudará a que el balón entre en la cancha.",
                             "2": "Termina la trayectoria del brazo hasta que esté a la misma altura que tu cuerpo, esto hará que el balón vaya con más fuerza."
-                        }
+                        },
+                        "xp": 60
                     }
                 }
             },
             "approach": {
                 "level": {
-                    "1": {
+                    "one": {
 
                     },
-                    "2": {
+                    "two": {
 
                     }
                 }
@@ -51,20 +53,20 @@
         "rightHanded": {
             "hit": {
                 "level": {
-                    "1": {
+                    "one": {
 
                     },
-                    "2": {
+                    "two": {
 
                     }
                 }
             },
             "approach": {
                 "level": {
-                    "1": {
+                    "one": {
 
                     },
-                    "2": {
+                    "two": {
 
                     }
                 }
