@@ -4,10 +4,36 @@
             "hit": {
                 "level": {
                     "1": {
-
+                        "id": 1,
+                        "name": "Postura del golpeo",
+                        "description": "Vamos a ver la postura que debemos adoptar para realizar el remate por pasos.",
+                        "steps": {
+                            "1": "Sitúate con el cuerpo recto y pon tu pierna derecha más adelantada que la izquierda.",
+                            "2": "Gira tu cadera haciendo que tu pecho mire a tu izquierda.",
+                            "3": "Coloca tus brazos en la posición arco-flecha, teniendo el brazo derecho elevado por encima de la cabeza y estirado y, el brazo izquierdo flexionado con el codo apuntado hacia detrás.",
+                            "4": "Abre el pecho contrayendo así la espalda.",
+                            "5": "Asegúrate de que tus brazos forman una línea recta los dos juntos"
+                        },
+                        "xp": 20
                     },
                     "2": {
-
+                        "id": 2,
+                        "name": "Golpeo",
+                        "description": "El golpeo son 3 pasos a la vez pero los vamos a dividir para luego hacerlos todos juntos.",
+                        "steps": {
+                            "1": "El primer paso es el giro de cadera, gírala rápidamente hasta la posición inicial.",
+                            "2": "El segundo paso es bajar el brazo derecho que tenenemos elevado hasta que se encuentre a la altura del cuerpo",
+                            "3": "Por último, realiza el golpeo elevando el codo y llevándolo por delante de la cabeza. Estira el brazo para golpear en tu punto más alto."
+                        }
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Punto de impacto",
+                        "description": "La muñeca y cómo terminamos el brazo juegan un papel muy importante en el control y fuerza del balón, vamos a ver cómo usarla correctamente en el golpeo.",
+                        "steps": {
+                            "1": "En el punto de impacto con el balón (tu punto más alto), baja la muñeca para añadir al balón giro adicional y hacer que su trayectoria sea menos elevada. Esto nos ayudará a que el balón entre en la cancha.",
+                            "2": "Termina la trayectoria del brazo hasta que esté a la misma altura que tu cuerpo, esto hará que el balón vaya con más fuerza."
+                        }
                     }
                 }
             },
