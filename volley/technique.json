@@ -3,7 +3,7 @@
         "leftHanded": {
             "hit": {
                 "level": {
-                    "1": {
+                    "one": {
                         "id": 1,
                         "name": "Postura del golpeo",
                         "description": "Vamos a ver la postura que debemos adoptar para realizar el remate por pasos.",
@@ -16,7 +16,7 @@
                         },
                         "xp": 20
                     },
-                    "2": {
+                    "two": {
                         "id": 2,
                         "name": "Golpeo",
                         "description": "El golpeo son 3 pasos a la vez pero los vamos a dividir para luego hacerlos todos juntos.",
@@ -26,7 +26,7 @@
                             "3": "Por último, realiza el golpeo elevando el codo y llevándolo por delante de la cabeza. Estira el brazo para golpear en tu punto más alto."
                         }
                     },
-                    "3": {
+                    "three": {
                         "id": 3,
                         "name": "Punto de impacto",
                         "description": "La muñeca y cómo terminamos el brazo juegan un papel muy importante en el control y fuerza del balón, vamos a ver cómo usarla correctamente en el golpeo.",
