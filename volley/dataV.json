@@ -1,5 +1,5 @@
 {
-    "phisical": {
+    "physical": {
         "strength": {
             "id": 1,
             "name": "Fuerza",
@@ -100,7 +100,7 @@
         },
         "block": {
             "id": 2,
-            "name: "Bloqueo",
+            "name": "Bloqueo",
             "steps": {
                 "preparation": {
 
