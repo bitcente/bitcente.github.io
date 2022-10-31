@@ -1,13 +1,29 @@
+@font-face {
+    font-family: "Halloween";
+    src: url(assets/fonts/faffe0a1eaedfb49.woff) format("woff");
+}
+@font-face {
+    font-family: "Nightmare";
+    src: url(assets/fonts/32cde7430ff2a00a.woff) format("woff");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(assets/fonts/4b98f76be8a4ec3a.woff) format("woff");
+}
+
 *
 {
     margin: 0;
     padding: 0;
 }
 
-html,
 body
 {
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.no-scroll {
+    overflow: hidden !important;
 }
 
 .webgl
@@ -16,7 +32,176 @@ body
     top: 0;
     left: 0;
     outline: none;
+    z-index: -1;
 }
 
+.web {
+    width: 100vw;
+}
+
+.section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.intro {
+    height: 400vh;
+    opacity: 0;
+}
+@keyframes blink {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    100% {opacity: 0}
+}
+.scroll-down {
+    font-size: 1vw;
+    position: fixed;
+    bottom: 50px;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink 2s infinite;
+}
+
+.halloween_text {
+    font-family: Halloween;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+:root {
+    --color-thunder: rgb(205, 200, 242);
+}
+@keyframes thunder {
+    0% {background-color: var(--color-thunder)}
+    1% {background-color: transparent}
+    50% {background-color: var(--color-thunder)}
+    51% {background-color: transparent}
+    99% {background-color: var(--color-thunder)}
+    100% {background-color: transparent}
+}
+.thunder {
+    animation: thunder 1s infinite;
+}
+
+.fixed-title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    text-align: center;
+}
+
+.start {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-family: Nightmare;
+    color: white;
+    font-size: 8vw;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.button {
+    font-family: Halloween;
+    padding: 20px 50px;
+    background-color: rgb(222, 146, 4);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    border-radius: 100vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: .6s all ease;
+}
+.button:hover {
+    background-color: rgb(187, 123, 5);
+    scale: .8;
+}
+
+h1 {
+    font-size: 7vw;
+    margin-top: -5vw;
+}
+h2 {
+    font-size: 4vw;
+}
+p {
+    font-size: 1.5vw;
+    color: white;
+    font-family: 'Roboto';
+}
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+.halloween_title {
+    opacity: 0;
+}
+
+.text-white {
+    color: white;
+}
+.text-orange {
+    color: rgb(222, 146, 4);
+}
+
+.center-right, .center-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-right>div {
+    padding-left: 60vw;
+    padding-right: 8vw;
+}
+.center-left>div {
+    padding-right: 60vw;
+    padding-left: 8vw;
+}
+@media screen and (max-width: 600px) {
+    .center-right>div {
+        padding-left: 48vw;
+        padding-right: 20px;
+    }
+    .center-left>div {
+        padding-right: 48vw;
+        padding-left: 20px;
+    }
+}
+.fix_cnt {
+    opacity: 0;
+}
+.imputar {
+    opacity: 0;
+}
+
+.jumpscare {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.jumpscare img {
+    height: 100%;
+}
+.display-none {
+    display: none;
+}
 
 /*# sourceMappingURL=main.css.map*/
