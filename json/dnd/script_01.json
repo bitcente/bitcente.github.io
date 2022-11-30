@@ -1,0 +1,1091 @@
+{
+    "arthur": [
+        {
+            "text": "Lágrimas que llenan lagos",
+            "time": "4"
+        },
+        {
+            "text": "Uñas rotas",
+            "time": "2"
+        },
+        {
+            "text": "Nada ha tenido sentido",
+            "time": "3"
+        },
+        {
+            "text": "¿Por qué lo has hecho?",
+            "time": "4"
+        },
+        {
+            "text": "Tus brazos pesan",
+            "time": "2"
+        },
+        {
+            "text": "Solo piensas en una cosa",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "MORIR",
+                    "texts": [
+                        {
+                            "text": "Agarras tu espada",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tus manos tiemblan",
+                            "time": "2"
+                        },
+                        {
+                            "text": "La sangre de tus antebrazos brota",
+                            "time": "3"
+                        },
+                        {
+                            "text": "En arena se convierte tu hoja",
+                            "time": "3"
+                        },
+                        {
+                            "text": "En ceniza tus brazos",
+                            "time": "2"
+                        }
+                    ]
+                },
+                {
+                    "name": "GRITAR",
+                    "texts": [
+                        {
+                            "text": "Tus agónicos gritos retumban en el bosque",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tus ojos lloran",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Lloran por cada lágrima que hiciste brotar",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Lloran por cada alma rota",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Lloran por romper tu juramento",
+                            "time": "2"
+                        }
+                    ]
+                },
+                {
+                    "name": "LUCHAR",
+                    "texts": [
+                        {
+                            "text": "Tus piernas no responden",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma no quiere seguir",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Pero tu espada sí",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Se prende de júbilo",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Carga, mi luciérnaga",
+                            "time": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Una oscuridad envuelve tus ojos",
+            "time": "3"
+        },
+        {
+            "text": "No ves nada",
+            "time": "2"
+        },
+        {
+            "text": "Ante ti, un niño se postra",
+            "time": "4"
+        },
+        {
+            "text": "Desconoces su lengua",
+            "time": "3"
+        },
+        {
+            "text": "La curiosidad te pesa",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "VER",
+                    "texts": [
+                        {
+                            "text": "Abres los ojos",
+                            "time": "2"
+                        },
+                        {
+                            "text": "La oscuridad descubre un niño",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Los trapos sucios tapan sus heridas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Sus ojos irradian esperanza",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Su cuerpo demuestra espíritu",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "OÍR",
+                    "texts": [
+                        {
+                            "text": "Una voz cortada",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Una voz familiar",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Un heredero apto",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Un padre incompetente",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Su cuerpo demuestra espíritu",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "SENTIR",
+                    "texts": [
+                        {
+                            "text": "Su espíritu te abraza",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La calidez de un niño que te ama",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El espíritu de un heredero apto",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Recuperas el aliento pero no la cabeza",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Tu alma se parte en dos",
+            "time": "3"
+        },
+        {
+            "text": "Una mitad para él",
+            "time": "2"
+        },
+        {
+            "text": "Otra para tu tumba",
+            "time": "3"
+        },
+        {
+            "text": "La máscara se desprende de tu rostro",
+            "time": "4"
+        },
+        {
+            "text": "Los demonios te arrebatan lo profanado",
+            "time": "4"
+        },
+        {
+            "text": "Quizás el chico es...",
+            "time": "4"
+        },
+        {
+            "text": "Quizás solo sea...",
+            "time": "3"
+        },
+        {
+            "text": "En otro mundo nació",
+            "time": "3"
+        },
+        {
+            "text": "Y a este volverá.",
+            "time": "3"
+        }
+    ],
+    "sifo": [
+        {
+            "text": "Tus manos sujetan otras",
+            "time": "4"
+        },
+        {
+            "text": "Unas suaves y delicadas",
+            "time": "4"
+        },
+        {
+            "text": "No logras ver más allá de las muñecas",
+            "time": "4"
+        },
+        {
+            "text": "Pesan como si nadie las llevase",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "PREGUNTAR",
+                    "texts": [
+                        {
+                            "text": "Nadie responde",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Solo se oye el viento",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La brisa mueve las arandelas de tus orejas",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Las manos se resbalan de tus palmas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Desaparecen en el abismo",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "TIRAR",
+                    "texts": [
+                        {
+                            "text": "Lanzas las manos",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tus manos están manchadas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La sangre intensifica el viento que te golpea",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Te sientes observado",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Juzgado",
+                            "time": "2"
+                        }
+                    ]
+                },
+                {
+                    "name": "SOLTAR",
+                    "texts": [
+                        {
+                            "text": "Las manos se deslizan por tus palmas",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Se pierden en el oscuro abismo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Nadie te devuelve la mirada",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu espada se deshace en mil trozos",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Dejas de oír el viento",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Todo está negro",
+            "time": "3"
+        },
+        {
+            "text": "No logras ver tu cuerpo",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "GRITAR",
+                    "texts": [
+                        {
+                            "text": "Un eco resuena",
+                            "time": "2"
+                        },
+                        {
+                            "text": "No ha sido tu voz, sino la de una mujer",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tus palabras mueren antes de nacer",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "ESPERAR",
+                    "texts": [
+                        {
+                            "text": "Han pasado siglos",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Los ojos de tu nuca ya no brillan",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Las arandelas de tus orejas han dejado de sonar",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "CAMINAR",
+                    "texts": [
+                        {
+                            "text": "Cada pisada es un corte",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Cada intento de abrir los ojos, un golpe",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Caes de rodillas",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tus arandelas se vuelven arena",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "El viento vuelve",
+            "time": "3"
+        },
+        {
+            "text": "Te mueves",
+            "time": "2"
+        },
+        {
+            "text": "Te mueves",
+            "time": "2"
+        },
+        {
+            "text": "Te mueves",
+            "time": "2"
+        },
+        {
+            "text": "No puedes seguir",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "¿POR QUÉ?",
+                    "texts": [
+                        {
+                            "text": "Los barrotes te bloquean",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu corazón se detiene",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Qué has perdido?",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Todo",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "¿DÓNDE ESTOY?",
+                    "texts": [
+                        {
+                            "text": "Esos barrotes...",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Una celda de cristal",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu cuerpo no responde",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "¿QUIÉN SOY?",
+                    "texts": [
+                        {
+                            "text": "Siempre has sido 'nadie'",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Nunca has sido quien dices ser",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pretendes buscarlo e él",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero aún no has visto el sol",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu conciencia jamás estará...",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "La celda se abre",
+            "time": "2"
+        },
+        {
+            "text": "Una luz te golpea el rostro",
+            "time": "3"
+        },
+        {
+            "text": "Estiras las manos para alcanzar el sol",
+            "time": "4"
+        },
+        {
+            "text": "Tus delicadas y suaves manos se cortan y caen al abismo.",
+            "time": "5"
+        }
+    ],
+    "quarion": [
+        {
+            "text": "Lo sabías",
+            "time": "2"
+        },
+        {
+            "text": "Lo sabías",
+            "time": "2"
+        },
+        {
+            "text": "Ya lo sabías",
+            "time": "2"
+        },
+        {
+            "text": "Todos lo negaban",
+            "time": "3"
+        },
+        {
+            "text": "Pero tú lo sabías",
+            "time": "3"
+        },
+        {
+            "text": "Esto no podía ser todo",
+            "time": "3"
+        },
+        {
+            "text": "Había algo más",
+            "time": "2"
+        },
+        {
+            "options": [
+                {
+                    "name": "RECORDAR",
+                    "texts": [
+                        {
+                            "text": "Tu mente ya había llegado a esa conclusión",
+                            "time": "4"
+                        },
+                        {
+                            "text": "El límite no estaba en los elementos",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Estaba en la mente",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ACTUAR",
+                    "texts": [
+                        {
+                            "text": "Haces algo para pararlo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tus brazos se mueven pero nada ocurre",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Aún no estás listo para manejarlo",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "PREDECIR",
+                    "texts": [
+                        {
+                            "text": "Tu ojo interior advierte",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Llevas siglos encerrado en una esfera de cristal",
+                            "time": "4"
+                        },
+                        {
+                            "text": "¿A qué estás esperando?",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Los árboles tiemblan",
+            "time": "2"
+        },
+        {
+            "text": "Se deshacen en cenizas ante el fuego",
+            "time": "3"
+        },
+        {
+            "text": "Tus piernas quieren correr pero tu alma persiste",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "CORRER",
+                    "texts": [
+                        {
+                            "text": "Se cierran ante ti",
+                            "time": "2"
+                        },
+                        {
+                            "text": "No quieren que lo sepas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No quieren que los descubras",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Has llegado demasiado lejos",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ESPERAR",
+                    "texts": [
+                        {
+                            "text": "Lentamente el aura del frasco se esparce",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Envuelve tus caderas",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Recorre tu piel",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Ha llegado la hora",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "LUCHAR",
+                    "texts": [
+                        {
+                            "text": "Aún no",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Aún no puedo morir",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debo llevar esto al siguiente",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Al siguiente mundo",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Cenizas y arena",
+            "time": "2"
+        },
+        {
+            "text": "No queda nada",
+            "time": "2"
+        },
+        {
+            "text": "Este está perdido",
+            "time": "2"
+        },
+        {
+            "text": "Pero puede que no el venidero",
+            "time": "3"
+        },
+        {
+            "text": "Tus manos tiemblan",
+            "time": "3"
+        },
+        {
+            "text": "¿Realmente estoy listo?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "SIEMPRE LO ESTUVE",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior resuena",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Una melodía",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Como un cántico",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está en paz",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "LO ESTOY",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior ruge",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Un alarido",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Un grito de guerra",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está eufórica",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "LO ESTARÉ",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior se emociona",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Un suspiro",
+                            "time": "2"
+                        },
+                        {
+                            "text": "De desasosiego y esperanza",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está ansiosa",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Pero falta algo",
+            "time": "4"
+        },
+        {
+            "text": "Gloria",
+            "time": "2"
+        },
+        {
+            "text": "Poder",
+            "time": "2"
+        },
+        {
+            "text": "No",
+            "time": "3"
+        },
+        {
+            "text": "Eso no es lo que busco",
+            "time": "3"
+        },
+        {
+            "text": "Lo que busco se encuentra en el último escalón.",
+            "time": "5"
+        }
+    ],
+    "shava": [
+        {
+            "text": "De tus yemas, llamas",
+            "time": "3"
+        },
+        {
+            "text": "Fuego que ilumina el cielo",
+            "time": "3"
+        },
+        {
+            "text": "Demasiado oscuro",
+            "time": "2"
+        },
+        {
+            "text": "Una figura te mira",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "BLANDIR",
+                    "texts": [
+                        {
+                            "text": "Blandes una espada invisible",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu palma se cierra",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Las llamas desaparecen",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Cayendo al frío suelo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Suena un cristal",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La figura te observa",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "AMENAZAR",
+                    "texts": [
+                        {
+                            "text": "Gritas a la figura",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Las llamas crecen con cada grito",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Se ilumina la habitación",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El rostro de alguien que antes cuidabas",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "AGITAR",
+                    "texts": [
+                        {
+                            "text": "Las llamas se apagan",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Oscuridad",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Luz",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Una figura oscura te observa",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Un rostro de alguien que antes cuidabas",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Tu ojo se cierra",
+            "time": "3"
+        },
+        {
+            "text": "Ya no ves",
+            "time": "2"
+        },
+        {
+            "text": "Caes de rodillas",
+            "time": "2"
+        },
+        {
+            "text": "La figura camina hacia ti",
+            "time": "2"
+        },
+        {
+            "options": [
+                {
+                    "name": "CAZAR",
+                    "texts": [
+                        {
+                            "text": "Te lanzas",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Vacío",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No estás hecha para cazar",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "HUIR",
+                    "texts": [
+                        {
+                            "text": "Te levantas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Corres",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Corres",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Corres",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Te atraviesa una luz",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No estás hecha para huir",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "RENDIRSE",
+                    "texts": [
+                        {
+                            "text": "Abandonas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Alguien te sujeta las manos",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tus brazos caen",
+                            "time": "2"
+                        },
+                        {
+                            "text": "¿Por qué ya no sientes las manos?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Caes",
+                            "time": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "El abismo te atrapa",
+            "time": "3"
+        },
+        {
+            "text": "Ninguna llama te arropa",
+            "time": "3"
+        },
+        {
+            "text": "Cinco llamas en tus ojos",
+            "time": "3"
+        },
+        {
+            "text": "Aún no has encontrado ninguna",
+            "time": "5"
+        },
+        {
+            "text": "¿A qué esperas?",
+            "time": "2"
+        },
+        {
+            "text": "¿Qué más necesitas?",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "TIEMPO",
+                    "texts": [
+                        {
+                            "text": "El tiempo es relativo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tienes siglos por delante",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Solo tienes que mirar atrás",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Y revivir.",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "FUERZA",
+                    "texts": [
+                        {
+                            "text": "No todos nacemos fuertes",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No todos nacemos grandes",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Es el final",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Lo que nos hace fuertes.",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "PODER",
+                    "texts": [
+                        {
+                            "text": "¿En serio?",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Es eso lo que tanto deseas?",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Aquí no vas a conseguir poder",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Ni en este ni en siguiente",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El poder ya está en ti.",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
