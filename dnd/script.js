@@ -3,10 +3,42 @@ $.getJSON("https://sMarthz.github.io/dnd/script_01.json", function (data) {
     dataScript = data
 })
 
+var audioClick = new Audio('./sounds/click.mp3');
+
 const animDuration = 1.2
 const globalElement = document.querySelector(".global")
 const fullScript = []
 const answers = []
+
+const startExperience = () => {
+    gsap.to(".starter",{
+        opacity: 0,
+        display: "none",
+        duration: animDuration,
+        delay: .2
+    })
+    gsap.to(".start-text",{
+        letterSpacing:70,
+        duration: 2.5,
+        ease: "power1.out"
+    })
+    gsap.fromTo("#char_picker",
+    {
+        display: "none"
+    },
+    {
+        opacity: 1,
+        display: "grid",
+        duration: animDuration,
+        delay: 3
+    })
+
+    
+    var audioBackground = new Audio('./sounds/background.mp3');
+    audioBackground.play();
+    audioClick.play();
+
+}
 
 const run = (player) =>
 {
@@ -25,7 +57,7 @@ const run = (player) =>
 
         setTimeout(() => {
             startScript(fullScript)
-        }, 2000);
+        }, 4000);
     }
 }
 
@@ -39,7 +71,6 @@ const startScript = (script) =>
 
 const showLine = () =>
 {
-    console.log(fullScript[iterator])
 
     const centerDiv = document.createElement("div")
     centerDiv.classList.add("center")

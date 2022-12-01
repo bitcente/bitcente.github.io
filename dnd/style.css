@@ -32,7 +32,7 @@ body {
 }
 
 
-.center {
+.center, .starter {
     width: calc(100% - 60px);
     height: 100%;
     position: fixed;
@@ -44,6 +44,17 @@ body {
     align-content: center;
     text-align: center;
     padding: 0 30px;
+}
+
+.starter {
+    font-size: 50px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+#char_picker {
+    opacity: 0;
+    display: none;
 }
 
 .item {
