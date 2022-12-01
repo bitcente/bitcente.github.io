@@ -211,6 +211,61 @@
             "time": "3"
         },
         {
+            "options": [
+                {
+                    "name": "OTORGAR",
+                    "texts": [
+                        {
+                            "text": "El fragmento se tu alma se tiñe de rojo",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tu cuerpo pide fuerzas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Fuerzas para otorgárselas a él",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "ENCOMENDAR",
+                    "texts": [
+                        {
+                            "text": "El fragmento se tu alma se tiñe de azul",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tu cuerpo pide determinación",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Determinación para cumplir su cometido",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "ACOMPAÑAR",
+                    "texts": [
+                        {
+                            "text": "El fragmento se tu alma se tiñe de verde",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tu cuerpo pide presencia",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Presencia para acompañarlo en su viaje",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "text": "La máscara se desprende de tu rostro",
             "time": "4"
         },
