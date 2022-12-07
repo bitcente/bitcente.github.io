@@ -3,7 +3,7 @@ $.getJSON("https://sMarthz.github.io/dnd/script_01.json", function (data) {
     dataScript = data
 })
 
-var audioClick = new Audio('./sounds/click.mp3');
+var audioStart = new Audio('./sounds/click.mp3');
 
 const animDuration = 1.2
 const globalElement = document.querySelector(".global")
@@ -36,7 +36,7 @@ const startExperience = () => {
     
     var audioBackground = new Audio('./sounds/background.mp3');
     audioBackground.play();
-    audioClick.play();
+    audioStart.play();
 
 }
 
