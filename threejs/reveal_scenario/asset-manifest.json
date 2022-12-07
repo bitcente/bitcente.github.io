@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c254175a.css",
-    "main.js": "/static/js/main.be5c0fb1.js",
-    "index.html": "/index.html",
-    "main.c254175a.css.map": "/static/css/main.c254175a.css.map",
-    "main.be5c0fb1.js.map": "/static/js/main.be5c0fb1.js.map"
+    "main.css": "/threejs/reveal_scenario/static/css/main.c254175a.css",
+    "main.js": "/threejs/reveal_scenario/static/js/main.be5c0fb1.js",
+    "index.html": "/threejs/reveal_scenario/index.html",
+    "main.c254175a.css.map": "/threejs/reveal_scenario/static/css/main.c254175a.css.map",
+    "main.be5c0fb1.js.map": "/threejs/reveal_scenario/static/js/main.be5c0fb1.js.map"
   },
   "entrypoints": [
     "static/css/main.c254175a.css",
