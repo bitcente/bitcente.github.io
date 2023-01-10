@@ -21,10 +21,24 @@ fetch('./cards.json')
                 `
             $('.expositor').append(div)
 
-            const carta = document.querySelector(".card-"+card.id)
-            carta.addEventListener("click", () => {
-                carta.classList.toggle("turn")
+            const cardEl = document.querySelector(".card-"+card.id)
+            cardEl.addEventListener("click", () => {
+                cardEl.classList.toggle("turn")
             })
+
+            var timeout_id = 0,
+                hold_time = 1000
+
+            $(".card-"+card.id).mousedown(function() {
+                timeout_id = setTimeout(menu_toggle, hold_time);
+                
+            }).bind('mouseup mouseleave', function() {
+                clearTimeout(timeout_id);
+            });
+
+            function menu_toggle() {
+                console.log("holded")
+            }
         })
         
     })

@@ -59,12 +59,15 @@ h1 {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .flip-card-front img, .flip-card-back img {
-  border-radius: 10px;
-  overflow: hidden;
+  /* border-radius: 10px;
+  overflow: hidden; */
+  transform: scale(1.05);
+  object-fit: cover;
 }
 
 .flip-card-front {
