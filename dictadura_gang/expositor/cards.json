@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Vicente alienígena",
+        "type": 0,
+        "dmg": 0,
+        "hp": 3,
+        "img": "VicenteAlienigena.png"
+    },
+    {
+        "id": 2,
+        "name": "Habitación de Pedro",
+        "type": 1,
+        "dmg": null,
+        "hp": null,
+        "img": "HabitacionPedro.png"
+    }
+]
