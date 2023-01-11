@@ -8,10 +8,13 @@
 
 body {
   font-family: 'Arial', Helvetica, sans-serif;
+  margin: 0;
 }
 
 .global {
   padding: 10px 30px;
+  min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -29,12 +32,62 @@ h1 {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 600px) {
+  .expositor {
+    justify-content: center;
+  }
+}
+
+:root {
+  --card-width: 300px;
+  --card-height: 420px;
+}
+
+.flip-card-holder, .flip-card  {
+  width: var(--card-width);
+  height: var(--card-height);
+}
+
+.flip-card-mover {
+  transition: all .8s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.flip-card-mover.selected {
+  transform: scale(1.5);
+}
+
+.expositor.blur-cards .flip-card-mover:not(.selected) {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.flip-card-desc-cnt {
+  pointer-events: none;
+  background-color: transparent;
+  opacity: 0;
+  width: 0vw;
+  height: 100%;
+  max-height: 360px;
+  position: absolute;
+  top: 0; left: 0;
+  transition: all .8s;
+}
+.flip-card-mover.selected .flip-card-desc-cnt {
+  pointer-events: inherit;
+  background-color: #7e424233;
+  opacity: 1;
+  width: 25vw;
+  max-width: 25vw;
+  margin-left: 30px;
+  padding: 30px 30px 30px calc(var(--card-width));
+}
+
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 420px;
   perspective: 1000px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .flip-card-inner {
@@ -42,14 +95,24 @@ h1 {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.6s;
+  transition: transform 0.6s, box-shadow 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 12px 0 rgb(0 0 0 / 40%);
   border-radius: 10px;
 }
 
 .flip-card.turn .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+@media screen and (min-width: 601px) {
+  .flip-card-mover:not(.selected):hover .flip-card .flip-card-inner {
+    transform: scale(.98);
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 30%);
+  }
+  .flip-card-mover:not(.selected):hover .flip-card.turn .flip-card-inner {
+    transform: rotateY(180deg) scale(.98);
+  }
 }
 
 .flip-card-front, .flip-card-back {
