@@ -90,16 +90,38 @@ fetch('./cards.json')
             }
 
             
+            gsap.fromTo("h1 span", {
+                y: 50,
+                autoAlpha: 0,
+            }, {
+                y: 0,
+                autoAlpha: 1,
+                duration: .8,
+                stagger: 0.05,
+                onComplete: function() {
+                    document.querySelector("h1").classList.add("loaded")
+                }
+            })
+
+            gsap.fromTo(".contenido-descripcion", {
+                y: 20,
+                autoAlpha: 0,
+            }, {
+                y: 0,
+                autoAlpha: 1,
+                duration: .8,
+                delay: .5
+            })
 
             gsap.fromTo(".flip-card", {
                 y: 50,
-                opacity: 0,
-              }, {
+                autoAlpha: 0,
+            }, {
                 y: 0,
-                opacity: 1,
+                autoAlpha: 1,
                 duration: .4,
                 stagger: 0.05,
-              });
+            });
 
         })
         
@@ -227,3 +249,9 @@ function checkTerritory(card, cardEl) {
 
     return
 }
+
+document.querySelectorAll("h1 span").forEach((span) => {
+    span.addEventListener("click", function() {
+        span.style.color = "#"+Math.floor(Math.random()*16777215).toString(16);
+    })
+})
