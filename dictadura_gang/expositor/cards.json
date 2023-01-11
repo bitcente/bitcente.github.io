@@ -5,6 +5,18 @@
         "type": "Criatura",
         "dmg": 0,
         "hp": 3,
+        "keywords": [
+            {
+                "slug": "provocar"
+            },
+            {
+                "slug": "autista"
+            },
+            {
+                "slug": "fiestero"
+            }
+        ],
+        "desc": null,
         "img": "VicenteAlienigena.png"
     },
     {
@@ -13,6 +25,8 @@
         "type": "Territorio",
         "dmg": null,
         "hp": null,
+        "keywords": null,
+        "desc": "Cuando una de tus criaturas mata a otra sin morir, roba una carta aleatoria del cementerio.",
         "img": "HabitacionPedro.png"
     }
 ]

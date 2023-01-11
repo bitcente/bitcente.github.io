@@ -5,6 +5,26 @@ const mobileQuery = 600
 
 let cards
 
+
+const _keywords = [
+    {
+        slug: "provocar",
+        name: "🛡️Provocar",
+        desc: "Fuerza a los rivales a atacar a esta unidad primero."
+    },
+    {
+        slug: "autista",
+        name: "🥴Autista",
+        desc: "Al recibir un golpe no letal de otra criatura, vuelve a la mano de su propietario."
+    },
+    {
+        slug: "fiestero",
+        name: "🥳Fiestero",
+        desc: "Al entrar al campo de batalla, otorga +1|+0 al resto de aliados."
+    }
+]
+
+
 fetch('./cards.json')
     .then((response) => response.json())
     .then((json) => {
@@ -29,8 +49,8 @@ fetch('./cards.json')
                 <div class="flip-card-holder">
                     <div class="flip-card-mover">
                         <div class="flip-card-desc-cnt">
-                            <h3>${card.name}</h3>
-                            <h3>${card.type}</h3>
+                            <h3 class="card-name"><b>${card.name}</b> <span class="card-type">- ${card.type}</span></h3>
+                            <div class="flip-card-info"></div>
                         </div>
                         <div class="flip-card card-${card.id} ${turn}" data-card-id="${card.id}">
                             <div class="flip-card-inner">
@@ -47,11 +67,16 @@ fetch('./cards.json')
                 `
             $('.expositor').append(div)
 
+
+            
             const cardEl = document.querySelector(".card-"+card.id)
             cardEl.addEventListener("click", () => {
                 selectCard(cardEl)
             })
 
+            if (card.type == "Criatura") checkCreature(card, cardEl.parentElement)
+            if (card.type == "Territorio") checkTerritory(card, cardEl.parentElement)
+            
             if (window.innerWidth < mobileQuery) {
                 cardEl.addEventListener('click', function(ev) {
                     turnCard(cardEl)
@@ -143,7 +168,7 @@ global.addEventListener("click", function () {
     cardMoverSelected.style.top = cardMoverSelected.parentElement.offsetTop+"px"
     cardMoverSelected.style.left = cardMoverSelected.parentElement.offsetLeft+"px"
     setTimeout(() => {
-        cardMoverSelected.style.zIndex = "unset"
+        if (!cardMoverSelected.classList.contains("selected")) cardMoverSelected.style.zIndex = "unset"
     }, 600);
     cardMoverSelected.classList.remove("selected")
     expositor.classList.remove("blur-cards")
@@ -151,3 +176,54 @@ global.addEventListener("click", function () {
     // Resume scrolling
     document.body.style.overflow = "inherit"
 }, false);
+
+
+// Check for creature values (dmg, hp, keywords)
+function checkCreature(card, cardEl) {
+
+    const cardInfo = cardEl.querySelector(".flip-card-info")
+
+    card.dmg != null ? cardInfo.append( document.createElement('h4').innerHTML = "Daño: " + card.dmg ) : null
+    cardInfo.append( document.createElement('br') )
+    card.hp != null ? cardInfo.append( document.createElement('h4').innerHTML = "Vida: " + card.hp ) : null
+    
+    if (card.keywords) {
+        const div = document.createElement('div')
+        div.classList.add("keywords-cnt")
+
+        let listKeywords = '<ul>'
+        card.keywords.forEach((keyword) => {
+            for (let i = 0; i < _keywords.length; i++) {
+                if (_keywords[i].slug == keyword.slug) {
+                    listKeywords += '<li>' + "<b>"+_keywords[i].name+"</b>" + ". <span class='keyword-desc'>" + _keywords[i].desc + '</span></li>'
+                    break
+                }
+            }
+        })
+        listKeywords += '</ul>'
+        const titleKeywords = '<h4>Palabras clave:</h4>'
+        div.innerHTML = titleKeywords+listKeywords
+
+
+        cardInfo.append(div)
+    }
+
+    return
+}
+
+// Check for creature values (description)
+function checkTerritory(card, cardEl) {
+
+    const cardInfo = cardEl.querySelector(".flip-card-info")
+    
+    if (card.desc) {
+        const div = document.createElement('div')
+
+        div.innerHTML = "<h4>Habilidad:</h4>" + card.desc
+
+
+        cardInfo.append(div)
+    }
+
+    return
+}

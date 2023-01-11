@@ -66,21 +66,48 @@ h1 {
   pointer-events: none;
   background-color: transparent;
   opacity: 0;
-  width: 0vw;
+  width: 25vw;
+  max-width: 25vw;
   height: 100%;
   max-height: 360px;
   position: absolute;
   top: 0; left: 0;
+  border-radius: 10px;
+  padding: 30px 30px 30px calc(var(--card-width) + 30px);
   transition: all .8s;
+  color: transparent;
 }
 .flip-card-mover.selected .flip-card-desc-cnt {
   pointer-events: inherit;
-  background-color: #7e424233;
+  background-color: #7e424266;
   opacity: 1;
-  width: 25vw;
-  max-width: 25vw;
-  margin-left: 30px;
-  padding: 30px 30px 30px calc(var(--card-width));
+  
+  color: black
+}
+
+.flip-card-desc-cnt h3 {
+  margin: 0;
+}
+.card-type {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.flip-card-info {
+  margin-top: 15px;
+}
+.flip-card-info h4 {
+  margin-bottom: 10px;
+}
+.flip-card-info ul {
+  padding-left: 20px;
+}
+
+.keywords-cnt {
+  margin-top: 15px;
+}
+.keyword-desc {
+  font-size: 14px;
 }
 
 .flip-card {
@@ -88,6 +115,10 @@ h1 {
   perspective: 1000px;
   cursor: pointer;
   opacity: 0;
+}
+
+.flip-card-mover.selected .flip-card {
+  cursor: auto;
 }
 
 .flip-card-inner {
@@ -138,4 +169,79 @@ h1 {
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+
+
+
+:root {
+  --mouse-color: rgb(45, 45, 45);
+  --mouse-click-color: rgb(210, 47, 47);
+}
+
+.instrucciones {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.instruccion {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mouse {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 15px;
+  height: 20px;
+  gap: 1px;
+}
+.mouse-down, .mouse-left, .mouse-right {
+  background-color: var(--mouse-color);
+}
+.mouse-up {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  gap: 1px;
+}
+.mouse-down {
+  width: 100%;
+  height: 65%;
+  border-radius: 0 0 8px 8px;
+}
+.mouse-left, .mouse-right {
+  width: 100%;
+  height: 100%;
+}
+
+.mouse-left {
+  border-radius: 8px 0 0 0;
+}
+.mouse-right {
+  border-radius: 0 8px 0 0;
+}
+
+.mouse.left-click-anim .mouse-left {
+  animation: leftClick 2s linear infinite;
+}
+.mouse.right-click-anim .mouse-right {
+  animation: rightClick 2s linear infinite;
+}
+
+@keyframes leftClick {
+  0% {background-color: var(--mouse-color);}
+  1% {background-color: var(--mouse-click-color);}
+  50% {background-color: var(--mouse-click-color);}
+  51% {background-color: var(--mouse-color);}
+}
+@keyframes rightClick {
+  0% {background-color: var(--mouse-color);}
+  1% {background-color: var(--mouse-click-color);}
+  50% {background-color: var(--mouse-click-color);}
+  51% {background-color: var(--mouse-color);}
 }
