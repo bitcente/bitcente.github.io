@@ -23,6 +23,7 @@ h1 {
   font-weight: 400;
   margin: 0;
   line-height: 1;
+  pointer-events: none;
 }
 
 h1 span {
@@ -31,6 +32,7 @@ h1 span {
   visibility: hidden;
 }
 h1.loaded span {
+  pointer-events: auto;
   transition: transform .4s cubic-bezier(0.68, -0.55, 0.265, 1.55), color .3s ease;
 }
 h1 span:hover {
