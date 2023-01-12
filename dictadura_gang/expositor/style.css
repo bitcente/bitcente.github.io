@@ -107,8 +107,19 @@ h1 span:hover {
   }
 }
 
-.expositor.blur-cards .flip-card-mover:not(.selected) {
+h1,
+.contenido-descripcion {
+  transition: filter .8s;
+}
+
+.global.blur-cards .flip-card-mover:not(.selected),
+.global.blur-cards h1,
+.global.blur-cards .contenido-descripcion {
   filter: blur(4px);
+  pointer-events: none;
+}
+
+.global.blur-cards h1 span {
   pointer-events: none;
 }
 

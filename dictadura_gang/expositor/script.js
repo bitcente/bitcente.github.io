@@ -166,7 +166,7 @@ function selectCard(card) {
     document.body.style.overflow = "hidden"
 
     // Blur the rest of cards
-    expositor.classList.add("blur-cards")
+    global.classList.add("blur-cards")
 
     var except = document.getElementById('except');
 
@@ -179,7 +179,7 @@ function selectCard(card) {
 
 
 global.addEventListener("click", function () {
-    if (!expositor.classList.contains("blur-cards")) return
+    if (!global.classList.contains("blur-cards")) return
 
     const cardMoverSelected = document.querySelector(".flip-card-mover.selected")
     cardMoverSelected.style.position = "absolute"
@@ -189,7 +189,7 @@ global.addEventListener("click", function () {
         if (!cardMoverSelected.classList.contains("selected")) cardMoverSelected.style.zIndex = "unset"
     }, 600);
     cardMoverSelected.classList.remove("selected")
-    expositor.classList.remove("blur-cards")
+    global.classList.remove("blur-cards")
 
     // Resume scrolling
     document.body.style.overflow = "inherit"
