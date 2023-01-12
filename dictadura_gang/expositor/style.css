@@ -142,7 +142,7 @@ h1,
   pointer-events: inherit;
   background-color: #2a2a2a;
   opacity: 1;
-  
+  user-select: all;
   color: #f0f0f0;
 }
 
