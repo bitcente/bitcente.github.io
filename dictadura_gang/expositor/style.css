@@ -13,8 +13,24 @@ body {
 
 .global {
   padding: 10px 30px;
+  width: 100vw;
   min-height: 100vh;
   padding-bottom: 100px;
+}
+
+.background-texture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .2;
+  background-image: url(./img/texture-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -24,6 +40,13 @@ h1 {
   margin: 0;
   line-height: 1;
   pointer-events: none;
+  user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 65px;
+  }
 }
 
 h1 span {
@@ -54,6 +77,9 @@ h1 span:hover {
   .expositor {
     justify-content: center;
   }
+  .contenido-descripcion p {
+    font-size: 18px;
+  }
 }
 
 :root {
@@ -73,6 +99,12 @@ h1 span:hover {
 }
 .flip-card-mover.selected {
   transform: scale(1.5);
+}
+
+@media screen and (max-width: 1440px) {
+  .flip-card-mover.selected {
+    transform: scale(1.3);
+  }
 }
 
 .expositor.blur-cards .flip-card-mover:not(.selected) {
@@ -97,10 +129,10 @@ h1 span:hover {
 }
 .flip-card-mover.selected .flip-card-desc-cnt {
   pointer-events: inherit;
-  background-color: #7e424266;
+  background-color: #2a2a2a;
   opacity: 1;
   
-  color: black
+  color: #f0f0f0;
 }
 
 .flip-card-desc-cnt h3 {
@@ -208,6 +240,15 @@ h1 span:hover {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .instrucciones {
+    display: none;
+  }
+  .expositor {
+    margin-top: 30px
+  }
 }
 
 .mouse {

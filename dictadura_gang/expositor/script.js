@@ -91,7 +91,7 @@ fetch('./cards.json')
 
             
             gsap.fromTo("h1 span", {
-                y: 50,
+                y: (window.innerWidth < mobileQuery) ? 30 : 50,
                 autoAlpha: 0,
             }, {
                 y: 0,
@@ -155,16 +155,12 @@ function selectCard(card) {
     mover.style.left = mover.offsetLeft+"px"
     mover.style.zIndex = 1
 
+    let leftOffset
+    (window.innerWidth < 1441) ? leftOffset = 400 : leftOffset = 600
     const offsetTopSelected = (window.innerHeight / 2) + document.documentElement.scrollTop - 200
-    const offsetLeftSelected = (window.innerWidth / 2) - 600
-
+    const offsetLeftSelected = (window.innerWidth / 2) - leftOffset
     mover.style.top = offsetTopSelected+"px"
     mover.style.left = offsetLeftSelected+"px"
-
-    // Set description background
-    /* const descCont = mover.querySelector(".flip-card-desc-cnt ")
-    descCont.style.top = document.documentElement.scrollTop+"px"
-    descCont.style.left = "0px" */
 
     // Prevent scrolling
     document.body.style.overflow = "hidden"
