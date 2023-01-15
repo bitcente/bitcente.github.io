@@ -28,5 +28,15 @@
         "keywords": null,
         "desc": "Cuando una de tus criaturas mata a otra sin morir, roba una carta aleatoria del cementerio.",
         "img": "HabitacionPedro.png"
+    },
+    {
+        "id": 3,
+        "name": "Mesi v.s. El Bicho",
+        "type": "Hechizo",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Elige a dos criaturas, se golpean la una a la otra.",
+        "img": "MesiVSElBicho.png"
     }
 ]
