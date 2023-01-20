@@ -9,7 +9,7 @@ let cards
 const _keywords = [
     {
         slug: "provocar",
-        name: "🛡️Provocar",
+        name: "🤪Provocar",
         desc: "Fuerza a los rivales a atacar a esta unidad primero."
     },
     {
@@ -21,7 +21,27 @@ const _keywords = [
         slug: "fiestero",
         name: "🥳Fiestero",
         desc: "Al entrar al campo de batalla, otorga +1|+0 al resto de aliados."
-    }
+    },
+    {
+        slug: "escudo",
+        name: "🛡️Escudo",
+        desc: "Bloquea el primer daño recibido."
+    },
+    {
+        slug: "sigilo",
+        name: "🕵️‍♂️Sigilo",
+        desc: "No puede ser objetivo de ninguna carta hasta que ataque."
+    },
+    {
+        slug: "carga",
+        name: "🏃‍♂️Carga",
+        desc: "Puede atacar el turno que es jugado."
+    },
+    {
+        slug: "falangista",
+        name: "👮Falangista",
+        desc: "Al jugarse, su dueño roba una carta."
+    },
 ]
 
 
@@ -76,6 +96,7 @@ fetch('./cards.json')
 
             if (card.type == "Criatura") checkCreature(card, cardEl.parentElement)
             if (card.type == "Territorio") checkTerritory(card, cardEl.parentElement)
+            if (card.type == "Hechizo") checkSpell(card, cardEl.parentElement)
             
             if (window.innerWidth < mobileQuery) {
                 cardEl.addEventListener('click', function(ev) {
@@ -190,7 +211,7 @@ global.addEventListener("click", function () {
     }, 600);
     cardMoverSelected.classList.remove("selected")
     global.classList.remove("blur-cards")
-
+    
     // Resume scrolling
     document.body.style.overflow = "inherit"
 }, false);
@@ -201,6 +222,9 @@ function checkCreature(card, cardEl) {
 
     const cardInfo = cardEl.querySelector(".flip-card-info")
 
+    card.cost != null ? cardInfo.append( document.createElement('h4').innerHTML = "Coste: " + card.cost ) : null
+    cardInfo.append( document.createElement('br') )
+    cardInfo.append( document.createElement('br') )
     card.dmg != null ? cardInfo.append( document.createElement('h4').innerHTML = "Daño: " + card.dmg ) : null
     cardInfo.append( document.createElement('br') )
     card.hp != null ? cardInfo.append( document.createElement('h4').innerHTML = "Vida: " + card.hp ) : null
@@ -233,6 +257,37 @@ function checkCreature(card, cardEl) {
 function checkTerritory(card, cardEl) {
 
     const cardInfo = cardEl.querySelector(".flip-card-info")
+
+    card.cost != null ? cardInfo.append( document.createElement('h4').innerHTML = "Coste: " + card.cost ) : null
+    cardInfo.append( document.createElement('br') )
+    cardInfo.append( document.createElement('br') )
+    card.dmg != null ? cardInfo.append( document.createElement('h4').innerHTML = "Daño: " + card.dmg ) : null
+    cardInfo.append( document.createElement('br') )
+    card.hp != null ? cardInfo.append( document.createElement('h4').innerHTML = "Vida: " + card.hp ) : null
+    
+    if (card.desc) {
+        const div = document.createElement('div')
+
+        div.innerHTML = "<h4>Habilidad:</h4>" + card.desc
+
+
+        cardInfo.append(div)
+    }
+
+    return
+}
+
+// Check for creature values (description)
+function checkSpell(card, cardEl) {
+
+    const cardInfo = cardEl.querySelector(".flip-card-info")
+
+    card.cost != null ? cardInfo.append( document.createElement('h4').innerHTML = "Coste: " + card.cost ) : null
+    cardInfo.append( document.createElement('br') )
+    cardInfo.append( document.createElement('br') )
+    card.dmg != null ? cardInfo.append( document.createElement('h4').innerHTML = "Daño: " + card.dmg ) : null
+    cardInfo.append( document.createElement('br') )
+    card.hp != null ? cardInfo.append( document.createElement('h4').innerHTML = "Vida: " + card.hp ) : null
     
     if (card.desc) {
         const div = document.createElement('div')

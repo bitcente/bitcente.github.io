@@ -1,8 +1,9 @@
 [
     {
-        "id": 1,
-        "name": "Vicente alienígena",
+        "id": "001",
+        "name": "Marciano Alcohólico",
         "type": "Criatura",
+        "cost": "3",
         "dmg": 0,
         "hp": 3,
         "keywords": [
@@ -17,26 +18,134 @@
             }
         ],
         "desc": null,
-        "img": "VicenteAlienigena.png"
+        "img": "marciano_alcoholico.png"
     },
     {
-        "id": 2,
-        "name": "Habitación de Pedro",
-        "type": "Territorio",
-        "dmg": null,
-        "hp": null,
-        "keywords": null,
-        "desc": "Cuando una de tus criaturas mata a otra sin morir, roba una carta aleatoria del cementerio.",
-        "img": "HabitacionPedro.png"
+        "id": "002",
+        "name": "Recolector de arroz",
+        "type": "Criatura",
+        "cost": "3",
+        "dmg": 3,
+        "hp": 2,
+        "keywords": [
+            {
+                "slug": "escudo"
+            }
+        ],
+        "desc": null,
+        "img": "recolector_de_arroz.png"
     },
     {
-        "id": 3,
-        "name": "Mesi v.s. El Bicho",
+        "id": "003",
+        "name": "Iván",
+        "type": "Criatura",
+        "cost": "1",
+        "dmg": 1,
+        "hp": 1,
+        "keywords": [
+            {
+                "slug": "sigilo"
+            }
+        ],
+        "desc": null,
+        "img": "ivan.png"
+    },
+    {
+        "id": "004",
+        "name": "Votante activa",
+        "type": "Criatura",
+        "cost": "2",
+        "dmg": 2,
+        "hp": 1,
+        "keywords": [
+            {
+                "slug": "carga"
+            },
+            {
+                "slug": "falangista"
+            }
+        ],
+        "desc": null,
+        "img": "votante_activa.png"
+    },
+
+
+
+    {
+        "id": "100",
+        "name": "Messi v.s. El Bicho",
         "type": "Hechizo",
+        "cost": "3",
         "dmg": null,
         "hp": null,
         "keywords": null,
         "desc": "Elige a dos criaturas, se golpean la una a la otra.",
-        "img": "MesiVSElBicho.png"
+        "img": "mesi_vs_el_bicho.png"
+    },
+    {
+        "id": "101",
+        "name": "Explicación técnica",
+        "type": "Hechizo",
+        "cost": "3",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Roba hasta tener 5 cartas en tu mano.",
+        "img": "explicacion_tecnica.png"
+    },
+    {
+        "id": "102",
+        "name": "Mamada al diablo",
+        "type": "Hechizo",
+        "cost": "5",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Revive a una cria.",
+        "img": "mamada_al_diablo.png"
+    },
+    {
+        "id": "103",
+        "name": "Es una guarra pero es mi guarra",
+        "type": "Hechizo",
+        "cost": "2",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Otorga a una criatura: 'Antes de morir, ataco a mi dueño' durante este turno.",
+        "img": "es_una_guarra_pero.png"
+    },
+    {
+        "id": "104",
+        "name": "Comida para tres días",
+        "type": "Hechizo",
+        "cost": "3",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Te curas tantos puntos de vida como criaturas tengas en el terreno de juego.",
+        "img": "comida_tres_dias.png"
+    },
+    {
+        "id": "105",
+        "name": "Meke",
+        "type": "Hechizo",
+        "cost": "2",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Inflige 2 puntos de daño a una criatura.",
+        "img": "meke.png"
+    },
+    {
+        "id": "106",
+        "name": "Nerd radar",
+        "type": "Hechizo",
+        "cost": "2",
+        "dmg": null,
+        "hp": null,
+        "keywords": null,
+        "desc": "Descubre a una criatura con sigilo.",
+        "img": "nerd_radar.png"
     }
 ]
