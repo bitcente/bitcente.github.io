@@ -1,5 +1,5 @@
 let dataScript = null
-$.getJSON("https://bitcente.github.io/dnd/script_01.json", function (data) {
+$.getJSON("https://bitcente.github.io/dnd/script_02.json", function (data) {
     dataScript = data
 })
 
