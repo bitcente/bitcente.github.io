@@ -1,0 +1,1457 @@
+{
+    "arthur": [
+        {
+            "text": "Un ejercito de un hombre",
+            "time": "4"
+        },
+        {
+            "text": "Un hombre para un ejercito",
+            "time": "4"
+        },
+        {
+            "text": "Ahora que estás aquí...",
+            "time": "3"
+        },
+        {
+            "text": "¿En qué pensabas en ese momento?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "IRA",
+                    "texts": [
+                        {
+                            "text": "Tu inexperiencia te ciega",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Y tus impulsos valen nada",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Ni siquiera lograste salvarle",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "PAZ",
+                    "texts": [
+                        {
+                            "text": "Eso pensaba",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Elegiste el camino fácil",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Era obvio que no seguirías los pasos del maestro",
+                            "time": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "NADA",
+                    "texts": [
+                        {
+                            "text": "Entiendo...",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Acaso estás dispuesto a perderlo todo?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "¿De verdad crees que ya no te queda nada por perder?",
+                            "time": "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Aquella batalla te marcó",
+            "time": "3"
+        },
+        {
+            "text": "Aquel demonio no murió del todo",
+            "time": "3"
+        },
+        {
+            "text": "Al menos no para ti",
+            "time": "4"
+        },
+        {
+            "text": "¿Qué haría tu mentor en esta situación?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "RECORDAR",
+                    "texts": [
+                        {
+                            "text": "Ya veo",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Esto ya ocurrió antes",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Está volviendo a suceder",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "OLVIDAR",
+                    "texts": [
+                        {
+                            "text": "No creas que es tan fácil",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Puedes intentarlo pero...",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No podrás volver atrás",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "PREDECIR",
+                    "texts": [
+                        {
+                            "text": "Esto ya ocurrió antes",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tienes una posibilidad",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Esta vez no renacerás",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "¿Quieres hacerlo?",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "NO QUIERO",
+                    "texts": [
+                        {
+                            "text": "¿Osas alterar lo ya escrito?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Esto no debería ser así",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debe de haber otra manera...",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "NO ESTOY SEGURO",
+                    "texts": [
+                        {
+                            "text": "Te depara un futuro incierto",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Más te vale devolver el favor prestado",
+                            "time": "4"
+                        },
+                        {
+                            "text": "O moriran por tu indecisión",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "LLÉVAME ANTE ÉL",
+                    "texts": [
+                        {
+                            "text": "De acuerdo, pero debes de saber...",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Que inocentes pagarán por tu osadía",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Así que más te vale no fallarles",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Desenmascárate",
+            "time": "5"
+        }
+    ],
+    "sifo": [
+        {
+            "text": "El respeto derriba montañas",
+            "time": "4"
+        },
+        {
+            "text": "La confianza arrasa ciudades",
+            "time": "4"
+        },
+        {
+            "text": "El amor destruye reinos enteros",
+            "time": "4"
+        },
+        {
+            "text": "Pero no es tu culpa",
+            "time": "3"
+        },
+        {
+            "text": "¿O acaso piensas que sí lo es?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "ARRODILLARSE",
+                    "texts": [
+                        {
+                            "text": "No soy yo a quien tienes que pedir perdón",
+                            "time": "5"
+                        },
+                        {
+                            "text": "Tu espada aún yace en el suelo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Por mucho que lo intentes no se levantará",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero ella sí",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "NO HABLAR",
+                    "texts": [
+                        {
+                            "text": "De acuerdo",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Este es el destino que escogiste trazar",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Siéntete orgulloso",
+                            "time": "3"
+                        },
+                        {
+                            "text": "De ti y de ella",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ASENTIR",
+                    "texts": [
+                        {
+                            "text": "Entonces no lo olvides",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Jamás serás vencedor de aquello de lo que huyes",
+                            "time": "35"
+                        },
+                        {
+                            "text": "A no ser que acabes con ella",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Todo está negro",
+            "time": "3"
+        },
+        {
+            "text": "No logras ver tu cuerpo",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "GRITAR",
+                    "texts": [
+                        {
+                            "text": "Un eco resuena",
+                            "time": "2"
+                        },
+                        {
+                            "text": "No ha sido tu voz, sino la de una mujer",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tus palabras mueren antes de nacer",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "ESPERAR",
+                    "texts": [
+                        {
+                            "text": "Han pasado siglos",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Los ojos de tu nuca ya no brillan",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Las arandelas de tus orejas han dejado de sonar",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "CAMINAR",
+                    "texts": [
+                        {
+                            "text": "Cada pisada es un corte",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Cada intento de abrir los ojos, un golpe",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Caes de rodillas",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tus arandelas se vuelven arena",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Ves el final",
+            "time": "3"
+        },
+        {
+            "text": "Una voz te hace la última pregunta",
+            "time": "3"
+        },
+        {
+            "text": "¿A qué estás dispuesto?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "CAMBIAR",
+                    "texts": [
+                        {
+                            "text": "¿Cambiar qué?",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Ya tuviste tu oportunidad",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Ahora déjalos cambiar por ti",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "GUIAR",
+                    "texts": [
+                        {
+                            "text": "¿Crees que se merecen un guía?",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Después de todo lo que te han hecho",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Nunca te has sentido parte",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "DESCANSAR",
+                    "texts": [
+                        {
+                            "text": "Menos mal",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero no te olvides en tu letargo",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Que la vida no pesa tanto como la muerte",
+                            "time": "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Una luz te golpea el rostro",
+            "time": "3"
+        },
+        {
+            "text": "Estiras las manos para alcanzar el sol",
+            "time": "4"
+        },
+        {
+            "text": "Tus delicadas y suaves manos se cortan y caen al abismo.",
+            "time": "5"
+        }
+    ],
+    "quarion": [
+        {
+            "text": "Oyes cuervos",
+            "time": "2"
+        },
+        {
+            "text": "El fulgor de la batalla",
+            "time": "3"
+        },
+        {
+            "text": "Tu cabeza da mil vueltas",
+            "time": "3"
+        },
+        {
+            "text": "Al final tenías razón",
+            "time": "3"
+        },
+        {
+            "text": "Había algo más",
+            "time": "2"
+        },
+        {
+            "text": "Ahora, ¿a dónde vamos?",
+            "time": "2"
+        },
+        {
+            "options": [
+                {
+                    "name": "ARRIBA",
+                    "texts": [
+                        {
+                            "text": "Ya estuviste allí",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero no tu cuerpo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu alma",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Lo recuerdas?",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ABAJO",
+                    "texts": [
+                        {
+                            "text": "¿Volver?",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Qué se te ha perdido allí?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "¿Tu familia?",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "A LO MÁS ALTO",
+                    "texts": [
+                        {
+                            "text": "El fuego y el hielo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Rivales y a la vez aliados",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Acecha un mal mayor",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debes hacerles ver",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Esta guerra no es entre ellos mismos",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿O acaso piensas que sí lo es?",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "options": [
+                {
+                    "name": "POR SUPUESTO",
+                    "texts": [
+                        {
+                            "text": "Entonces no lo olvides",
+                            "time": "2"
+                        },
+                        {
+                            "text": "No quieren que lo sepas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No quieren que los descubras",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Has llegado demasiado lejos",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "DÉJAME EN PAZ",
+                    "texts": [
+                        {
+                            "text": "No puedes escapar de los secretos",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Los secretos te tienen a ti",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Recorren tu piel",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Ha llegado la hora",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "NO PUEDO",
+                    "texts": [
+                        {
+                            "text": "Aún no",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero podrás",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debes intentarlo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero no caigas en el vacío",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Cenizas y arena",
+            "time": "2"
+        },
+        {
+            "text": "No queda nada",
+            "time": "2"
+        },
+        {
+            "text": "¿Cuál es tu cometido?",
+            "time": "2"
+        },
+        
+        {
+            "options": [
+                {
+                    "name": "GUIAR",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior resuena",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Una melodía",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Como un cántico",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está en paz",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "PROTEGER",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior se emociona",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Un suspiro",
+                            "time": "2"
+                        },
+                        {
+                            "text": "De desasosiego y esperanza",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está ansiosa",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "DESTRUIR",
+                    "texts": [
+                        {
+                            "text": "Tu elemento interior ruge",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Un alarido",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Un grito de guerra",
+                            "time": "2"
+                        },
+                        {
+                            "text": "Tu alma está eufórica",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Pero falta algo",
+            "time": "3"
+        },
+        {
+            "text": "Buscas algo",
+            "time": "3"
+        },
+        {
+            "text": "Y sigue esperando en el último escalón.",
+            "time": "5"
+        }
+    ],
+    "shava": [
+        {
+            "text": "Los fantasmas de tu pasado están ahí",
+            "time": "5"
+        },
+        {
+            "text": "Sigues sin demostrar nada",
+            "time": "3"
+        },
+        {
+            "text": "Estás obsesionada",
+            "time": "2"
+        },
+        {
+            "text": "¿Cuánto más vas a seguir así?",
+            "time": "3"
+        },
+        {
+            "text": "Algo tendrás que hacer...",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "CRECER",
+                    "texts": [
+                        {
+                            "text": "No parece que quieras",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu límite aún sigue muy lejos",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Los cuervos te llaman",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Es tu elección seguirles",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ESCUCHAR",
+                    "texts": [
+                        {
+                            "text": "Tus oídos oyen muerte",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero sigues sin oirle",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tienes que hacerle hablar",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "DEVOLVER",
+                    "texts": [
+                        {
+                            "text": "Si lo haces, perderás",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Una y otra vez",
+                            "time": "2"
+                        },
+                        {
+                            "text": "¿Cuánto estás dispuesta a devolver?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "¿Todo?",
+                            "time": "2"
+                        },
+                        {
+                            "text": "¿Un poco?",
+                            "time": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Tu ojo se cierra",
+            "time": "3"
+        },
+        {
+            "text": "Ya no ves",
+            "time": "2"
+        },
+        {
+            "text": "Caes de rodillas",
+            "time": "2"
+        },
+        {
+            "text": "Una figura camina hacia ti",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "CAZAR",
+                    "texts": [
+                        {
+                            "text": "Veo que no has cambiado en nada",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No podrás cazarlo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debería ser al revés",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero ahora puedes cambiarlo",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Estás hecha para cazar",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "HUIR",
+                    "texts": [
+                        {
+                            "text": "Por mucho que corras",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El final será el mismo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Las llamas se apagarán",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Y te caerás al vacío",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "RENDIRSE",
+                    "texts": [
+                        {
+                            "text": "Abandonas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Alguien te sujeta las manos",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tus brazos caen",
+                            "time": "2"
+                        },
+                        {
+                            "text": "¿Por qué ya no sientes las manos?",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Te espera el eterno vacío",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "El abismo te quiere",
+            "time": "3"
+        },
+        {
+            "text": "Solo una llama te quiere arropar",
+            "time": "4"
+        },
+        {
+            "text": "Cinco llamas en tus ojos",
+            "time": "3"
+        },
+        {
+            "text": "Tienes una justo delante",
+            "time": "5"
+        },
+        {
+            "text": "¿A qué esperas?",
+            "time": "2"
+        },
+        {
+            "options": [
+                {
+                    "name": "¿QUÉ ES?",
+                    "texts": [
+                        {
+                            "text": "Una figura flota sin cesar",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tienes siglos por delante",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Solo tienes que mirar atrás",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Y revivir.",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "¿CUANTO MÁS?",
+                    "texts": [
+                        {
+                            "text": "Ya la has pasado",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La tenías justo delante",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu alma se debe fundir con ella",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero necesitas las páginas",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "¿QUIÉN ES?",
+                    "texts": [
+                        {
+                            "text": "Sin nombre",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Sin hogar",
+                            "time": "3"
+                        },
+                        {
+                            "text": "La bajaron del último escalón",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Él la trajo aquí",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Solo para que tú la encontraras",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "anae": [
+        {
+            "text": "Las astas del ciervo apuntan al cielo",
+            "time": "5"
+        },
+        {
+            "text": "Las hojas del sauco se aferran para no caer",
+            "time": "5"
+        },
+        {
+            "text": "Hiciste una promesa",
+            "time": "3"
+        },
+        {
+            "text": "Ella confía en ti, pero...",
+            "time": "4"
+        },
+        {
+            "text": "¿Qué estás dispuesta a darle?",
+            "time": "5"
+        },
+        {
+            "options": [
+                {
+                    "name": "PROTECCIÓN",
+                    "texts": [
+                        {
+                            "text": "Los bosques arden",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu protección será bien recibida",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero ten cuidado con él",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu vida no puede ser en vano",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "VALOR",
+                    "texts": [
+                        {
+                            "text": "De eso no careces",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero... ¿Tienes suficiente para lo que se viene?",
+                            "time": "5"
+                        },
+                        {
+                            "text": "Debes ir preparada",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "ESPÍRITU",
+                    "texts": [
+                        {
+                            "text": "Eres un alma verdadera",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No tienes miedo a afrontarlo",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Los cuervos te llaman",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Es tu elección seguirles",
+                            "time": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Pero ven a hablar conmigo antes",
+            "time": "5"
+        },
+        {
+            "text": "Necesitas algo más...",
+            "time": "3"
+        },
+        {
+            "text": "Los antiguos dioses se han fijado en ti",
+            "time": "5"
+        },
+        {
+            "text": "Pero te dan a elegir",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "PIEDRA",
+                    "texts": [
+                        {
+                            "text": "Tan implacable como solías ser",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No pienses en lo que podría ser",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Sino en lo que será",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "AGUA",
+                    "texts": [
+                        {
+                            "text": "Fluyes y te adaptas",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El final será el mismo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero serás tú quien decida cómo",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "ARENA",
+                    "texts": [
+                        {
+                            "text": "Entierras el pasado",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Debes de estar preparada para lo peor",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Si todo acaba, recuerda tu camino",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Siento no ser tan clara",
+            "time": "3"
+        },
+        {
+            "text": "Pero no puedo decidirlo por ti",
+            "time": "4"
+        },
+        {
+            "text": "Antes de dar el siguiente paso, dime...",
+            "time": "4"
+        },
+        {
+            "text": "¿Necesitas algo más?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "UN COMPAÑERO",
+                    "texts": [
+                        {
+                            "text": "Todos necesitamos alguien",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Te otorgaré un guía",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero tú deberás guiarle también",
+                            "time": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "A TI",
+                    "texts": [
+                        {
+                            "text": "Puedo intentarlo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero mi alma yace bajo tierra",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Encuéntrame y seré tu guía",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Pero deberás guiarme a mi también",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "NO",
+                    "texts": [
+                        {
+                            "text": "Respeto tu decisión",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No me interpondré en tu camino",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero recuerda",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Tu alma y tu espíritu no deben separarse",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Al menos no por ahora",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "moria": [
+        {
+            "text": "En lo más profundo te espera",
+            "time": "5"
+        },
+        {
+            "text": "En todos lados",
+            "time": "2"
+        },
+        {
+            "text": "Y a la vez en ninguno",
+            "time": "3"
+        },
+        {
+            "text": "Falta poco para su llamada",
+            "time": "4"
+        },
+        {
+            "text": "¿Qué harás cuando llegue?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "OBEDECER",
+                    "texts": [
+                        {
+                            "text": "Eres una más",
+                            "time": "2"
+                        },
+                        {
+                            "text": "No te creas especial",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Podrás ver como todo acaba",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Tu vida no será en vano",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "HUIR",
+                    "texts": [
+                        {
+                            "text": "Tu primer error",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Vives atormentada por su llegada",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Cada vez está más cerca",
+                            "time": "3"
+                        },
+                        {
+                            "text": "¿Qué será de ti?",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "REBELARME",
+                    "texts": [
+                        {
+                            "text": "Tu osadía te hará pagar caro",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No estás preparada para lo que viene",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Las mareas arrastran a quien no es digno",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No intentes nada contracorriente",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Tu cometido podría ser más grande",
+            "time": "5"
+        },
+        {
+            "text": "Necesitas algo más...",
+            "time": "3"
+        },
+        {
+            "text": "Desde antes",
+            "time": "3"
+        },
+        {
+            "text": "Desde dentro de mil años",
+            "time": "4"
+        },
+        {
+            "text": "¿Qué oyes?",
+            "time": "3"
+        },
+        {
+            "options": [
+                {
+                    "name": "GOLPES",
+                    "texts": [
+                        {
+                            "text": "Vienen de más abajo",
+                            "time": "4"
+                        },
+                        {
+                            "text": "No pienses en lo que podría ser",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Sino en lo que será",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "GRITOS",
+                    "texts": [
+                        {
+                            "text": "Una batalla",
+                            "time": "3"
+                        },
+                        {
+                            "text": "El final será el mismo",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Pero decidirás tú cómo",
+                            "time": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "NADA",
+                    "texts": [
+                        {
+                            "text": "En efecto",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Aún no está con nosotros",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Y no parece que lo vaya a estar pronto",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Debes ser tú quien le despierte",
+            "time": "4"
+        },
+        {
+            "text": "Tu corazón pide fuego",
+            "time": "3"
+        },
+        {
+            "text": "Antes de dar el siguiente paso, dime...",
+            "time": "4"
+        },
+        {
+            "text": "¿Necesitas algo más?",
+            "time": "4"
+        },
+        {
+            "options": [
+                {
+                    "name": "SU PODER",
+                    "texts": [
+                        {
+                            "text": "No estás lista aún",
+                            "time": "3"
+                        },
+                        {
+                            "text": "No eres un recipiente capaz",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Si tan solo pudieras beber un poco...",
+                            "time": "5"
+                        },
+                        {
+                            "text": "Quizás así...",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "SU VOLUNTAD",
+                    "texts": [
+                        {
+                            "text": "Digna eres y digna serás",
+                            "time": "4"
+                        },
+                        {
+                            "text": "O al menos eso es lo que crees",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Sigues encerrada en aquella celda",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Libérate de ti misma",
+                            "time": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "SU PRESENCIA",
+                    "texts": [
+                        {
+                            "text": "Un peso mayor que cualquier otro",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Te advierto",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Y recuerda mis palabras",
+                            "time": "3"
+                        },
+                        {
+                            "text": "Un alma sin propósito...",
+                            "time": "4"
+                        },
+                        {
+                            "text": "Solo gana si pierde a la vez",
+                            "time": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
